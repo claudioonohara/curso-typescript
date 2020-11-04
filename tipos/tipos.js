@@ -64,3 +64,17 @@ var carro = 'carro texto';
 console.log(carro);
 carro = { marca: 'atributo marca', ano: 2020 };
 console.log(carro);
+//funcoes
+function retornaTexto() {
+    return 'texto';
+}
+console.log(retornaTexto());
+function digaOi() {
+    console.log('ola');
+    //return 'ola'
+}
+digaOi();
+function multiplicar(numA, numB) {
+    return numA * numB;
+}
+console.log(multiplicar(2, 6.8));

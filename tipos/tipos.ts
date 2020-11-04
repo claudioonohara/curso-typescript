@@ -76,3 +76,22 @@ let carro: any = 'carro texto'
 console.log(carro)
 carro = { marca: 'atributo marca', ano: 2020}
 console.log(carro)
+
+//funcoes
+function retornaTexto(): string{
+    return 'texto'
+}
+
+console.log(retornaTexto())
+
+function digaOi(): void {
+    console.log('ola')
+    //return 'ola'
+}
+digaOi()
+
+function multiplicar(numA: number, numB: number): number {
+    return numA * numB
+}
+
+console.log(multiplicar(2, 6.8))
