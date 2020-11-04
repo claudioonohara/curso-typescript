@@ -78,3 +78,6 @@ function multiplicar(numA, numB) {
     return numA * numB;
 }
 console.log(multiplicar(2, 6.8));
+var calculo;
+calculo = multiplicar;
+console.log(calculo(5, 6));

@@ -95,3 +95,8 @@ function multiplicar(numA: number, numB: number): number {
 }
 
 console.log(multiplicar(2, 6.8))
+
+let calculo: (x: number, y: number) => number
+
+calculo = multiplicar
+console.log(calculo(5, 6))
