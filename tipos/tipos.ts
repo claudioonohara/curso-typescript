@@ -40,3 +40,13 @@ console.log(idadeExplicito)
 //boolean
 let possuiHobbiesExplicito: boolean = false
 console.log(possuiHobbiesExplicito)
+
+//array
+let hobbies: any[] = ["nadar","correr"]
+console.log(hobbies[0])
+console.log(typeof hobbies)
+
+hobbies = [1, 2, 3]
+console.log(hobbies)
+
+

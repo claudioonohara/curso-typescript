@@ -34,3 +34,9 @@ console.log(idadeExplicito);
 //boolean
 var possuiHobbiesExplicito = false;
 console.log(possuiHobbiesExplicito);
+//array
+var hobbies = ["nadar", "correr"];
+console.log(hobbies[0]);
+console.log(typeof hobbies);
+hobbies = [1, 2, 3];
+console.log(hobbies);
