@@ -40,3 +40,8 @@ console.log(hobbies[0]);
 console.log(typeof hobbies);
 hobbies = [1, 2, 3];
 console.log(hobbies);
+//tuplas (array com elementos com tipos definidos(por inferencia ou explicitamente))
+var endereco = ["a", 5, "b"];
+console.log(endereco);
+endereco = ["x", 1, "y"];
+console.log(endereco);

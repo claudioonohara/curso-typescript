@@ -49,4 +49,8 @@ console.log(typeof hobbies)
 hobbies = [1, 2, 3]
 console.log(hobbies)
 
-
+//tuplas (array com elementos com tipos definidos(por inferencia ou explicitamente))
+let endereco: [string, number, string] = ["a" , 5 , "b"]
+console.log(endereco)
+endereco = ["x", 1 , "y"]
+console.log(endereco)
