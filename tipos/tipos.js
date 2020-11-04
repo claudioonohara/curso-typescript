@@ -136,3 +136,20 @@ var produto = {
     }
 };
 produto.validarProduto();
+var altura = 12;
+//altura = null
+var alturaOpcional = 12;
+alturaOpcional = null;
+var contato1 = {
+    nome: 'a',
+    tel1: '1',
+    tel2: null
+};
+console.log(contato1.tel2);
+var podeSerNulo = null; // eh tipo any
+podeSerNulo = 12;
+console.log(podeSerNulo);
+podeSerNulo = 'abc';
+console.log(podeSerNulo);
+var podeSerSomenteNulo = null;
+console.log(podeSerSomenteNulo);
