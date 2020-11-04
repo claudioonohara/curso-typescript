@@ -106,3 +106,8 @@ var funcionario = {
 console.log(funcionario.supervisores);
 console.log(funcionario.baterPonto(8));
 console.log(funcionario.baterPonto(9));
+// Union Types
+var nota = 10;
+console.log("Minha nota \u00E9 " + nota);
+nota = '10';
+console.log("Minha nota \u00E9 " + nota);
