@@ -70,3 +70,9 @@ console.log(minhaCor)
 
 console.log(Cor.Azul)
 console.log(Cor.Preto, Cor.Lilas ,Cor.Vermelho)
+
+//any
+let carro: any = 'carro texto'
+console.log(carro)
+carro = { marca: 'atributo marca', ano: 2020}
+console.log(carro)
