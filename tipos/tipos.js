@@ -111,3 +111,11 @@ var nota = 10;
 console.log("Minha nota \u00E9 " + nota);
 nota = '10';
 console.log("Minha nota \u00E9 " + nota);
+//checando tipos
+var valor = 30;
+if (typeof valor === "number") {
+    console.log("é um number");
+}
+else {
+    console.log(typeof valor);
+}
