@@ -100,3 +100,19 @@ let calculo: (x: number, y: number) => number
 
 calculo = multiplicar
 console.log(calculo(5, 6))
+
+//objeto
+
+let usuario = {
+    nome: 'a',
+    idade: 1
+}
+
+console.log(usuario)
+
+let usuarioExplicito: { nome: string, idade: number }= {
+    nome: 'b',
+    idade: 2
+}
+
+console.log(usuarioExplicito)

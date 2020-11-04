@@ -81,3 +81,14 @@ console.log(multiplicar(2, 6.8));
 var calculo;
 calculo = multiplicar;
 console.log(calculo(5, 6));
+//objeto
+var usuario = {
+    nome: 'a',
+    idade: 1
+};
+console.log(usuario);
+var usuarioExplicito = {
+    nome: 'b',
+    idade: 2
+};
+console.log(usuarioExplicito);
