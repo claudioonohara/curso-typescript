@@ -54,3 +54,19 @@ let endereco: [string, number, string] = ["a" , 5 , "b"]
 console.log(endereco)
 endereco = ["x", 1 , "y"]
 console.log(endereco)
+
+//emums
+enum Cor {
+    Cinza, //0
+    Verde = 100,
+    Azul = 10,
+    Preto,
+    Lilas,
+    Vermelho = 10
+}
+
+let minhaCor: Cor = Cor.Verde
+console.log(minhaCor)
+
+console.log(Cor.Azul)
+console.log(Cor.Preto, Cor.Lilas ,Cor.Vermelho)

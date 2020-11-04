@@ -45,3 +45,17 @@ var endereco = ["a", 5, "b"];
 console.log(endereco);
 endereco = ["x", 1, "y"];
 console.log(endereco);
+//emums
+var Cor;
+(function (Cor) {
+    Cor[Cor["Cinza"] = 0] = "Cinza";
+    Cor[Cor["Verde"] = 100] = "Verde";
+    Cor[Cor["Azul"] = 10] = "Azul";
+    Cor[Cor["Preto"] = 11] = "Preto";
+    Cor[Cor["Lilas"] = 12] = "Lilas";
+    Cor[Cor["Vermelho"] = 10] = "Vermelho";
+})(Cor || (Cor = {}));
+var minhaCor = Cor.Verde;
+console.log(minhaCor);
+console.log(Cor.Azul);
+console.log(Cor.Preto, Cor.Lilas, Cor.Vermelho);
