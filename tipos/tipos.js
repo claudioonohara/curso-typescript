@@ -92,3 +92,17 @@ var usuarioExplicito = {
     idade: 2
 };
 console.log(usuarioExplicito);
+var funcionario = {
+    supervisores: ['funcA', 'funcB'],
+    baterPonto: function (horario) {
+        if (horario <= 8) {
+            return 'ponto normal';
+        }
+        else {
+            return 'fora do horario';
+        }
+    }
+};
+console.log(funcionario.supervisores);
+console.log(funcionario.baterPonto(8));
+console.log(funcionario.baterPonto(9));

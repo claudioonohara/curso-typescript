@@ -116,3 +116,22 @@ let usuarioExplicito: { nome: string, idade: number }= {
 }
 
 console.log(usuarioExplicito)
+
+let funcionario: {
+    supervisores: string[],
+    baterPonto: (horas: number) => string
+} = {
+    supervisores: ['funcA', 'funcB'],
+    baterPonto(horario: number): string {
+        if(horario <= 8) {
+            return 'ponto normal'
+        } else{
+            return 'fora do horario'
+        }
+    }
+}
+
+console.log(funcionario.supervisores)
+console.log(funcionario.baterPonto(8))
+console.log(funcionario.baterPonto(9))
+
